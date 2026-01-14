@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data
+*.lmdb
+*.lmdb-lock
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+log
+
+# Model checkpoints (optional - may want to track with Git LFS)
+# checkpoints/*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+tmpclaude-*
+.claude/
+
+# Old files (before reorganization)
+cry_encoder.py
+model.py
+utils.py
+main.py
+main.ipynb
+test.ipynb
+write_db.ipynb
+dataset/
+interpretability/
+statistical_analysis/
