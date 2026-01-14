@@ -27,16 +27,7 @@ The dataset contains over 100 2D crystalline materials with their corresponding 
 
 - **Raw structures**: POSCAR format (VASP input files)
 - **Work function data**: Text files with Z-coordinate and potential values
-- **Database**: LMDB format for efficient data loading during training
-
-## Usage
-
-The dataset is automatically loaded by the training scripts. To prepare the database from raw files, use:
-
-```bash
-jupyter notebook notebooks/prepare_dataset.ipynb
-```
 
 ## Source
 
-Materials are sourced from the Materials Project 2D materials database (MIP2D).
+[Materials are sourced from the Materials Project 2D materials database (MIP2D).](https://www.mathub2d.net/)
