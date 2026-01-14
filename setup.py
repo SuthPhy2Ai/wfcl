@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+import os
 setup(
     name="2d-work-function",
     version="1.0.0",
@@ -17,8 +17,8 @@ setup(
         "transformers>=4.30.0",
     ],
     python_requires=">=3.8",
-    author="Research Team",
-    description="Deep learning model for predicting work functions of 2D materials",
+    author="Haoyu Wan",
+    description="WHY PAPER",
     long_description=open("README.md").read() if os.path.exists("README.md") else "",
     long_description_content_type="text/markdown",
 )
